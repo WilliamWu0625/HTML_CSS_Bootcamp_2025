@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit Course Landing Page</title>
+  </head>
+  <body>
+    <h1>Your Course Landing Page</h1>
+    <form action="cougars.html">
+      <div>
+        <label for="title">Course Title</label>
+        <input id="title" type="text" name="title" required />
+      </div>
+      <div>
+        <label for="comment"> Course Description</label>
+        <div>
+          <textarea id="comment" rows="10" cols="10" name="comment"></textarea>
+        </div>
+      </div>
+      <label for="level">Skill level</label>
+      <select id="level" name="level">
+        <option value="beginner">Beginner Level</option>
+        <option value="intermediate">Intermediate Level</option>
+        <option value="expert">Expert Level</option>
+        <option value="all">All Levels</option>
+      </select>
+      <div>
+        <label for="Publish">Ready to Publish the course</label>
+        <input id="Publish" type="checkbox" name="Publish">
+      </div>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
