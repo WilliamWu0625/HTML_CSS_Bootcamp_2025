@@ -39,6 +39,10 @@ h6 {
     font-size: 20px;
     letter-spacing: -0.5px;
 }
+code {
+    color: #e95400;
+    font-weight: bold;
+}
 
 .content {
     max-width: 900px;
