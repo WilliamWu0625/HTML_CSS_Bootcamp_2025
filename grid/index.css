@@ -214,3 +214,7 @@ body {
         opacity: 0;
     }
 }
+.purple {
+    background-color: purple;
+    transform: scale(2);
+}
