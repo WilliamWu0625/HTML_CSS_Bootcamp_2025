@@ -7,36 +7,176 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anek+Telugu,wght@300;400;500;600;700family=Roboto:wght@300;400;500;700&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anek+Telugu,wght@300;400;500;600;700family=Roboto:wght@300;400;500;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="index.css" />
     <title>Swipe</title>
 </head>
 
 <body>
-    <h1>HEADING 1</h1>
-    <h2>HEADING 2</h2> 
-    <h3>HEADING 3</h3> 
-    <h4>HEADING 4</h4> 
-    <h5>HEADING 5</h5> 
-    <h6>HEADING 6</h6>
-    <a href="sadas">Click Me</a>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci voluptatum expedita aperiam delectus voluptates, 
-        velit at quia, repellendus dolore iure repellat quis, quaerat quos deserunt temporibus perspiciatis laudantium! Aliquam, vitae?</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci voluptatum expedita aperiam delectus voluptates, 
-        velit at quia, repellendus dolore iure repellat quis, quaerat quos deserunt temporibus perspiciatis laudantium! Aliquam, vitae?</p>
-    <p class="secondary-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi amet vel porro tempore ipsa repellendus nobis aut sint eveniet recusandae velit enim, quae voluptas aliquid, 
-        maiores odio atque, quaerat ex</p>
-    <p class="subtitle">I am subtitle</p>
-    <p class="subtitle2">I am subtitle</p>
-    <button class="primary-button">Click me!</button>
-    <button class="secondary-button">Click me!</button>
-    <button class="primary-button with-icon">Click me!
-        <img src="assets/arrow-right-light.svg">
-    </button>
-     <button class="secondary-button with-icon">Click me!
-        <img src="assets/arrow-right-dark.svg">
-    </button>
+    <nav class="navbar">
+        <img src="assets/logo-white.svg" alt="Swipe, inc.">
+        <ul class="menu">
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Solutions</a></li>
+            <li><a href="#">Developers</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Pricing</a></li>
+        </ul>
+        <button class="primary-button navbar-button">Sign In</button>
+    </nav>
+    <main>
+        <div class="hero">
+            <div class="section-container two-column">
+                <div class="col-left">
+                    <h1>Payment infrastructure for the world</h1>
+                    <p>Lorem ipsum dolor si culpa laboriosam dolorem vel, illum quo, ! Facilis, soluta.
+                        Illo ut sapiente nesciunt,
+                        cupiditate aperiam voluptas est maiores debitis magnam!</p>
+                    <div class="button-container">
+                        <button class="primary-button with-icon">
+                            Start now
+                            <img src="assets/arrow-right-light.svg" alt="">
+                        </button>
+                        <button class="secondary-button with-icon">
+                            Contact sales
+                            <img src="assets/arrow-right-purple.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="col-right hero-phone-container">
+                    <img class="hero-phone" src="assets/hero-phone.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="partners-section">
+            <div class="section-container">
+                <div class="partners-grid">
+                    <img src="assets/instacart.png" alt="instacart">
+                    <img src="assets/salesforce.png" alt="salesforce">
+                    <img src="assets/amazon.png" alt="amazon">
+                    <img src="assets/slack.png" alt="slack">
+                    <img src="assets/shopify.png" alt="shopify">
+                    <img src="assets/google.png" alt="google">
+                    <img src="assets/lyft.png" alt="lyft">
+                    <img src="assets/zoom.png" alt="zoom">
+                </div>
+            </div>
+
+        </div>
+        <div class="unified-platform-section">
+            <div class="section-container">
+            <p class="subtitle">Unified platform</p>
+            <h2>All the payment products you will ever need</h2>
+            <div class="two-column">
+                <div class="col-left">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. oremque saepe vel. 
+                        <a href="#">all kinds of retailers</a>,
+                        <a href="#">software platforms and marketplaces</a>, Perspiciatis natus vero fugit omnis.</p>
+                </div>
+                <div class="col-right">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  explicabo?
+                    <a href="#">all kinds of retailers</a>,
+                    <a href="#">software platforms and marketplaces</a>, Perspiciatis natus vero fugit omnis.</p>
+                </div>
+            </div>
+            <button class="primary-button with-icon">
+                Start now
+                <img src="assets/arrow-right-light.svg">
+            </button>
+            <div class="card-container">
+                <div class="card">
+                    <img class="icon"src="assets/tools-icon.png" alt="">
+                    <h3>Tools for all stacks</h3>
+                    <p class="secondary-text">We offer front end and back end libraries in some of the most widely used technologies, old and new.</p>
+                    <button class="secondary-button">Start now</button>
+                </div>
+                <div class="card">
+                    <img class="icon" src="assets/tools-icon.png" alt="">
+                    <h3>Tools for all stacks</h3>
+                    <p class="secondary-text">We offer front end and back end libraries in some of the most widely used technologies, old and new.</p>
+                    <button class="secondary-button">Start now</button>
+            </div>
+            </div>
+        </div>
+        <div class="graphic-section">
+            <div class="section-container">
+                <div class="graphic-grid">
+                    <img src="assets/credit-card.png" alt="" id="credit-card">
+                    <img src="assets/slack-invoice.png" alt="" id="slack-invoice">
+                    <img src="assets/phone.png" alt="" id="phone">
+                    <img src="assets/dash.png" alt="" id="dash">
+                </div>
+            </div>
+        </div>
+        <div class="integrations-section">
+            <div class="section-container two-column">
+                <div class="col-left">
+                    <p class="subtitle2">Designed for Engineers</p>
+                    <h2>The world's best and most intuitive APIs</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. culpa ducimus fugiat pariatur vel sunt consequatur ad? Quae!</p>
+                    <button class="primary-button with-icon">
+                        Start now
+                        <img src="assets/arrow-right-dark.svg" alt="">
+                    </button>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="assets/tools-icon.png" alt="" class="icon">
+                            <h3>Tools for all stacks</h3>
+                            <p class="secondary-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.  magni. Earum porro quis ullam.</p>
+                            <button class="secondary-button with-icon">
+                        See libraries
+                        <img src="assets/arrow-right-blue.svg" alt="">
+                    </button>
+                        </div>
+                        <div class="card">
+                            <img src="assets/cube-icon.png" alt="" class="icon">
+                            <h3>Custom Integrations</h3>
+                            <p class="secondary-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.  magni. Earum porro quis ullam.</p>
+                            <button class="secondary-button with-icon">
+                        Explore partners
+                        <img src="assets/arrow-right-blue.svg" alt="">
+                    </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-right">
+                    <img src="assets/api-code.png" alt="" id="api-code">
+                    <img src="assets/terminal-code.png" alt="" id="terminal-code">
+                </div>
+            </div>
+        </div>
+        <div class="why-swipe-section">
+            <div class="section-container">
+                <p class="subtitle">Why Swipe</p>
+                <h2>A tech-first approach to finance</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="assets/cloud-icon.png" alt="" class="icon">
+                        <h3>Efficient Always</h3>
+                        <p class="secondary-text">Lorem ipsum dolor sit amet consectetur, t esse aliquam aperiam nulla veniam unde molestiae, autem eius delectus?</p>
+                    </div>
+                    <div class="card">
+                        <img src="assets/cycle-icon.png" alt="" class="icon">
+                        <h3>Fast-Improving</h3>
+                        <p class="secondary-text">Lorem ipsum dolor sit amet consectetur, t esse aliquam aperiam nulla veniam unde molestiae, autem eius delectus?</p>
+                    </div>
+                    <div class="card">
+                        <img src="assets/shield-icon.png" alt="" class="icon">
+                        <h3>Tried and true</h3>
+                        <p class="secondary-text">Lorem ipsum dolor sit amet consectetur, t esse aliquam aperiam nulla veniam unde molestiae, autem eius delectus?</p>
+                    </div>
+                    <div class="card">
+                        <img src="assets/bars-icon.png" alt="" class="icon">
+                        <h3>Crazy Optimized</h3>
+                        <p class="secondary-text">Lorem ipsum dolor sit amet consectetur, t esse aliquam aperiam nulla veniam unde molestiae, autem eius delectus?</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
 </body>
 
 </html>
